@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- telwin css cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Couter App</title>
+</head>
+<body class="flex items-center justify-center min-h-screen transsition-color duration-300">
+    <div class="bg-white rounded-lg shadow-lg p-8 text-center">
+        <h1 class="text-4xl font-bold mb-6"> Counter App </h1>
+        <div id ="emoji" class="text-6xl mb-4"> 😊 </div>
+        <div id="counter" class="text-6xl font-bold mb-8"> 0 </div>
+        <div class="flex justify-center space-x-4">
+            <button id="decrement" class="bg-red-500 hover:bg-red-600 py-2 px-4 rounded text-white font-bold"> - </button>
+            <button id="reset" class="bg-gray-500 hover:bg-gray-600 py-2 px-4 rounded text-white font-bold"> Reset </button>
+            <button id="increment" class="bg-green-500 hover:bg-green-600 py-2 px-4 rounded text-white font-bold"> + </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
